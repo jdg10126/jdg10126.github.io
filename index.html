@@ -3,345 +3,164 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Donggyu Joo | Senior Machine Learning Scientist</title>
+    <title>Donggyu Joo</title>
     <meta
       name="description"
-      content="Personal CV website for Donggyu Joo, Senior Machine Learning Scientist at Samsung Research."
+      content="Donggyu Joo, Senior Machine Learning Scientist at Samsung Research."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;450;500;600;650;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header class="navbar">
-      <a class="nav-brand" href="#top" aria-label="Donggyu Joo home">
-        <span>DJ</span>
-        Donggyu Joo
-      </a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#publications">Publications</a>
-        <a href="#patents">Patents</a>
+    <header class="site-nav">
+      <a class="wordmark" href="/">Donggyu Joo</a>
+      <nav aria-label="Primary navigation">
+        <a href="/about/">About</a>
+        <a href="/experience/">Experience</a>
+        <a href="/projects/">Projects</a>
+        <a href="/publications/">Publications</a>
+        <a href="/cv/">CV</a>
+        <a href="/contact/">Contact</a>
       </nav>
-      <a class="button button-secondary nav-cv" href="CV_DonggyuJoo.pdf" target="_blank" rel="noopener">CV PDF</a>
     </header>
 
-    <main id="top">
-      <section class="hero shell">
+    <main>
+      <section class="hero page-shell">
         <div class="hero-copy">
-          <p class="eyebrow">Senior Machine Learning Scientist · Samsung Research</p>
-          <h1>On-device vision-language AI for real-world Galaxy experiences.</h1>
-          <p class="hero-lead">
-            Ph.D. in AI with 3+ years at Samsung Research, building computer vision and
-            vision-language AI for Samsung Galaxy devices.
+          <p class="kicker">Senior Machine Learning Scientist · Samsung Research</p>
+          <h1>Donggyu Joo</h1>
+          <p class="hero-summary">
+            I build on-device computer vision and vision-language AI for Samsung Galaxy devices,
+            spanning multimodal data curation, model training, evaluation, optimization, and
+            deployment.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="mailto:jdg10126@gmail.com">Contact</a>
-            <a class="button button-secondary" href="CV_DonggyuJoo.pdf" target="_blank" rel="noopener">Download CV</a>
-            <a
-              class="link-button"
-              href="https://www.linkedin.com/in/donggyu-joo-a0a8ba22b/"
-              target="_blank"
-              rel="noopener"
-              >LinkedIn</a
-            >
-            <a
-              class="link-button"
-              href="https://scholar.google.com/scholar?q=Donggyu+Joo"
-              target="_blank"
-              rel="noopener"
-              >Google Scholar</a
-            >
+          <div class="text-links" aria-label="Profile links">
+            <a href="mailto:jdg10126@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/donggyu-joo-a0a8ba22b/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://scholar.google.com/scholar?q=Donggyu+Joo" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="/CV_DonggyuJoo.pdf" target="_blank" rel="noopener">CV PDF</a>
           </div>
         </div>
 
-        <aside class="hero-panel" aria-label="Profile highlights">
-          <div class="panel-orbit"></div>
-          <p class="panel-kicker">Current Work</p>
-          <h2>Production multimodal ML</h2>
-          <p>
-            VLM-based semantic photo search, large-scale multimodal data curation, on-device model
-            optimization, and robustness improvement for edge cases.
-          </p>
-          <div class="focus-grid">
-            <span>Computer Vision</span>
-            <span>Vision-Language Models</span>
-            <span>On-device AI</span>
-            <span>TFLite Deployment</span>
-          </div>
+        <aside class="profile-card" aria-label="Profile summary">
+          <p class="card-label">Research &amp; Product Focus</p>
+          <ul class="focus-list">
+            <li>Computer Vision</li>
+            <li>Vision-Language Models</li>
+            <li>On-device AI</li>
+            <li>Model Compression</li>
+            <li>TFLite Deployment</li>
+          </ul>
         </aside>
       </section>
 
-      <section class="metric-strip shell" aria-label="Selected career metrics">
-        <article>
-          <strong>8</strong>
-          <span>on-device AI features shipped globally</span>
-        </article>
-        <article>
-          <strong>50M+</strong>
-          <span>image-text pairs curated</span>
-        </article>
-        <article>
-          <strong>2,800+</strong>
-          <span>citations</span>
-        </article>
-        <article>
-          <strong>6</strong>
-          <span>engineers led across data, modeling, evaluation, and release</span>
-        </article>
+      <section class="section page-shell narrow">
+        <div class="section-heading">
+          <p class="kicker">Profile</p>
+          <h2>Research depth with production responsibility.</h2>
+        </div>
+        <p class="lead-text">
+          Ph.D. in AI with 3+ years at Samsung Research. Shipped 8 on-device AI features globally,
+          including VLM-based semantic photo search for Galaxy Gallery with models under 100M
+          parameters. Team Lead for 6 engineers across data, modeling, evaluation, and release.
+        </p>
       </section>
 
-      <section class="section shell text-grid" id="summary">
-        <div class="section-header">
-          <p class="eyebrow">Summary</p>
-          <h2>Research depth with product delivery.</h2>
+      <section class="section page-shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="kicker">Selected Work</p>
+            <h2>Applied AI systems from research to product.</h2>
+          </div>
+          <a class="subtle-link" href="/projects/">View projects</a>
         </div>
-        <div class="summary-card">
-          <p>
-            Senior Machine Learning Scientist with a Ph.D. in AI and 3+ years at Samsung Research,
-            building on-device computer vision and vision-language AI for Samsung Galaxy devices.
-            Shipped 8 on-device AI features globally, including VLM-based semantic photo search for
-            Galaxy Gallery with models under 100M parameters.
-          </p>
-          <p>
-            Expertise spans large-scale multimodal data curation, model training and evaluation,
-            on-device optimization, and robustness improvement for real-world edge cases. Team Lead
-            for 6 engineers, driving cross-functional execution across research, product, and
-            engineering.
-          </p>
-          <p class="visa-note">
-            O-1 Visa Eligible (No H-1B Lottery Required): 2,800+ Citations &amp; 5+ Top-tier Publications
-          </p>
-        </div>
-      </section>
-
-      <section class="section shell" id="experience">
-        <div class="section-header wide">
-          <p class="eyebrow">Experience</p>
-          <h2>Samsung Research, Samsung Electronics</h2>
-          <p>Senior Machine Learning Scientist · Seoul, S. Korea · Sep. 2022 - Present</p>
-        </div>
-        <div class="experience-grid">
-          <article class="card highlight-card">
-            <span class="badge">Production AI</span>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="card-label">Galaxy Gallery</p>
             <h3>On-Device VLM &amp; Gallery Search</h3>
             <p>
-              Developed and deployed VLM-based text-to-image retrieval models for Samsung Galaxy
-              Gallery, enabling semantic photo search with models under 100M parameters.
-            </p>
-            <p class="card-detail">
-              Expanded supported query coverage from 500 to 2,000+ categories, including documents,
-              landmarks, and car brands.
+              Developed and deployed VLM-based text-to-image retrieval models for semantic photo
+              search with models under 100M parameters.
             </p>
           </article>
-          <article class="card">
+          <article class="project-card">
+            <p class="card-label">Data Systems</p>
             <h3>Multimodal Data Curation</h3>
             <p>
-              Built GenAI-assisted labeling and filtering pipelines for 50M+ image-text pairs.
-              Improved robustness by reducing noisy labels and increasing coverage of long-tail
-              real-world image categories.
+              Built GenAI-assisted labeling and filtering pipelines for 50M+ image-text pairs to
+              improve robustness and long-tail category coverage.
             </p>
           </article>
-          <article class="card">
-            <h3>Research-to-Product Deployment</h3>
+          <article class="project-card">
+            <p class="card-label">Deployment</p>
+            <h3>Research-to-Product AI</h3>
             <p>
-              Shipped 8 on-device AI models to production for Galaxy devices. Owned model
-              optimization, TFLite conversion, validation, latency/memory tuning, and edge-case
-              debugging based on user feedback.
+              Owned model optimization, TFLite conversion, on-device validation, latency/memory
+              tuning, and edge-case debugging for Galaxy production models.
             </p>
           </article>
-          <article class="card">
+          <article class="project-card quiet-card">
+            <p class="card-label">On-device Classification</p>
             <h3>Touch Sequence Classification</h3>
             <p>
-              Designed and optimized an on-device sequential classification model to detect
-              unintended pocket touches. Deployed real-time CPU inference to Galaxy Z Flip6/7.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Technical Leadership</h3>
-            <p>
-              Led 6 engineers across data, modeling, evaluation, and release. Collaborated with
-              product and engineering stakeholders to turn ambiguous user-facing problems into
-              deployable AI features.
+              Designed and optimized a sequential classification model for unintended pocket-touch
+              detection, deployed to Galaxy Z Flip6/7.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="section shell" id="skills">
-        <div class="section-header wide">
-          <p class="eyebrow">Skills</p>
-          <h2>Applied AI skill set</h2>
-          <p>Core research, production deployment, data systems, and evaluation for multimodal ML.</p>
+      <section class="section page-shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="kicker">Publications</p>
+            <h2>Selected research publications.</h2>
+          </div>
+          <a class="subtle-link" href="/publications/">All publications</a>
         </div>
-        <div class="feature-grid">
-          <article class="feature-tile">
-            <span class="tile-marker"></span>
-            <h3>Core AI &amp; Research</h3>
-            <p>Computer Vision, Vision-Language Models, Image-Text Retrieval, Generative Modeling, Model Compression</p>
-          </article>
-          <article class="feature-tile">
-            <span class="tile-marker"></span>
-            <h3>Production ML</h3>
-            <p>On-device AI, Model Optimization, Quantization, Distillation, TFLite Deployment, Edge-case Debugging</p>
-          </article>
-          <article class="feature-tile">
-            <span class="tile-marker"></span>
-            <h3>Data &amp; Evaluation</h3>
-            <p>Large-scale Data Curation, Model Training &amp; Evaluation, Robustness Evaluation, Data Quality Control</p>
-          </article>
-          <article class="feature-tile">
-            <span class="tile-marker"></span>
-            <h3>Languages &amp; Tools</h3>
-            <p>Python, PyTorch, TensorFlow, TFLite, Git</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section shell text-grid" id="education">
-        <div class="section-header">
-          <p class="eyebrow">Education</p>
-          <h2>KAIST</h2>
-          <p>Korea Advanced Institute of Science and Technology · Daejeon, S. Korea</p>
-        </div>
-        <div class="timeline-list">
-          <article class="timeline-item">
-            <div>
-              <h3>Ph.D. in Electrical Engineering</h3>
-              <p>Research Focus: Model Compression, Model Pruning, and Computer Vision</p>
-            </div>
-            <span>Mar. 2018 - Aug. 2022</span>
-          </article>
-          <article class="timeline-item">
-            <div>
-              <h3>M.S. in Electrical Engineering</h3>
-              <p>Research Focus: Generative Adversarial Networks (GANs) and Computer Vision</p>
-            </div>
-            <span>Sep. 2016 - Feb. 2018</span>
-          </article>
-          <article class="timeline-item">
-            <div>
-              <h3>B.S. in Electrical Engineering</h3>
-              <p>Summa Cum Laude</p>
-            </div>
-            <span>Feb. 2013 - Aug. 2016</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section shell" id="publications">
-        <div class="section-header wide">
-          <p class="eyebrow">Publications</p>
-          <h2>Selected Publications</h2>
-          <p>Citations: 2,800+ · h-index: 8</p>
-        </div>
-        <div class="publication-list">
-          <article class="publication-item featured-publication">
-            <span>AAAI 2021</span>
+        <div class="publication-rows">
+          <article class="publication-row">
+            <div class="pub-meta">AAAI 2021</div>
             <div>
               <h3>Linearly Replaceable Filters for Deep Network Channel Pruning</h3>
               <p>Donggyu Joo, Eojindl Yi, Sunghyun Baek, and Junmo Kim</p>
             </div>
           </article>
-          <article class="publication-item">
-            <span>CVPR 2020</span>
+          <article class="publication-row">
+            <div class="pub-meta">CVPR 2020</div>
             <div>
               <h3>Continual Learning with Extended Kronecker-factored Approximate Curvature</h3>
               <p>Janghyun Lee, Hyeonggwon Hong, Donggyu Joo, and Junmo Kim</p>
             </div>
           </article>
-          <article class="publication-item">
-            <span>AAAI 2020 · Oral</span>
+          <article class="publication-row">
+            <div class="pub-meta">AAAI 2020 · Oral</div>
             <div>
               <h3>Residual Continual Learning</h3>
               <p>Janghyun Lee, Donggyu Joo, Hyeonggwon Hong, and Junmo Kim</p>
             </div>
           </article>
-          <article class="publication-item">
-            <span>CVPR 2018</span>
+          <article class="publication-row">
+            <div class="pub-meta">CVPR 2018</div>
             <div>
               <h3>Generating a Fusion Image: One's Identity and Another's Shape</h3>
               <p>Donggyu Joo*, Doyeon Kim*, and Junmo Kim</p>
             </div>
           </article>
-          <article class="publication-item">
-            <span>CVPR 2017</span>
-            <div>
-              <h3>A Gift From Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning</h3>
-              <p>Junho Yim, Donggyu Joo, and Junmo Kim</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section shell" id="honors">
-        <div class="section-header wide">
-          <p class="eyebrow">Honors &amp; Awards</p>
-          <h2>Recognition</h2>
-        </div>
-        <div class="award-grid">
-          <article><strong>2020</strong><span>Young-Han Kim Global Leader Scholarship ($5,000)</span></article>
-          <article><strong>2019</strong><span>Winner, AI Reporter, AI World Cup ($5,000)</span></article>
-          <article><strong>2018</strong><span>Winner, AI Reporter, AI World Cup ($5,000)</span></article>
-          <article><strong>2018</strong><span>Silver Prize, 24th Samsung Humantech Paper Awards, Signal Processing ($7,000)</span></article>
-          <article><strong>2017</strong><span>Silver Prize, 23rd Samsung Humantech Paper Awards, Computer Science ($7,000)</span></article>
-          <article><strong>2016</strong><span>Summa Cum Laude, School of Electrical Engineering, KAIST</span></article>
-          <article><strong>2015</strong><span>Dean's List, School of Electrical Engineering, KAIST</span></article>
-        </div>
-      </section>
-
-      <section class="section shell" id="patents">
-        <div class="section-header wide">
-          <p class="eyebrow">Patents</p>
-          <h2>Registered patents and applications</h2>
-        </div>
-        <div class="patent-grid">
-          <article class="compact-card">
-            <h3>Neural Network Learning Method and Device for Recognizing Class</h3>
-            <p>US11,449,733B2, U.S. Patent (Registered)</p>
-          </article>
-          <article class="compact-card">
-            <h3>Electronic Device for Processing Image and Operating Method Thereof</h3>
-            <p>US2025/0292376A1, U.S. Patent Application</p>
-          </article>
-          <article class="compact-card">
-            <h3>Electronic Device and Operating Method for the Same</h3>
-            <p>10-2024-0114486, Republic of Korea Patent Application</p>
-          </article>
-          <article class="compact-card">
-            <h3>Knowledge Transfer Method Using Deep Neural Network and Apparatus Therefor</h3>
-            <p>10-2061935, Republic of Korea Patent (Registered)</p>
-          </article>
-          <article class="compact-card">
-            <h3>Incremental Training Based Knowledge Transfer Method for Training Large Deep Neural Networks and Apparatus Therefor</h3>
-            <p>10-2063377, Republic of Korea Patent (Registered)</p>
-          </article>
-          <article class="compact-card">
-            <h3>Knowledge Sharing Based Knowledge Transfer Method for Improving Quality of Knowledge and Apparatus Therefor</h3>
-            <p>10-2063376, Republic of Korea Patent (Registered)</p>
-          </article>
-          <article class="compact-card">
-            <h3>Electronic Apparatus for Identifying Abnormal Touch and Control Method Thereof</h3>
-            <p>10-2024-0009651, Republic of Korea Patent Application</p>
-          </article>
         </div>
       </section>
     </main>
 
-    <footer class="footer shell">
+    <footer class="footer page-shell">
+      <p>Donggyu Joo · Senior Machine Learning Scientist</p>
       <div>
-        <strong>Donggyu Joo</strong>
-        <p>Senior Machine Learning Scientist focused on on-device AI and vision-language systems.</p>
-      </div>
-      <div class="footer-links">
         <a href="mailto:jdg10126@gmail.com">Email</a>
-        <a href="CV_DonggyuJoo.pdf" target="_blank" rel="noopener">CV PDF</a>
-        <a href="#top">Top</a>
+        <a href="/CV_DonggyuJoo.pdf" target="_blank" rel="noopener">CV PDF</a>
       </div>
     </footer>
   </body>
